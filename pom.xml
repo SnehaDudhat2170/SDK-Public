@@ -7,7 +7,7 @@
    <groupId>com.nashid.sdk</groupId>
    <artifactId>test</artifactId>
    <version>1.0</version>
-   <packaging>aar</packaging>
+   
     <dependencies>
         <dependency>
             <groupId>androidx.databinding</groupId>
