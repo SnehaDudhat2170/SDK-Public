@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.nashid.verifysdk</groupId>
-  <artifactId>idv</artifactId>
-  <version>1.0</version>
-
+  <groupId>com.kyc.nashidmrz</groupId>
+  <artifactId>IDV</artifactId>
+  <version>1.4</version>
+  
   <dependencies>
     <dependency>
       <groupId>androidx.databinding</groupId>
       <artifactId>viewbinding</artifactId>
       <version>7.4.2</version>
+     
     </dependency>
     <dependency>
       <groupId>androidx.databinding</groupId>
@@ -39,13 +46,13 @@
       <groupId>com.google.android.material</groupId>
       <artifactId>material</artifactId>
       <version>1.6.1</version>
-     
+      
     </dependency>
     <dependency>
       <groupId>com.madgag.spongycastle</groupId>
       <artifactId>pkix</artifactId>
       <version>1.54.0.0</version>
-     
+      
     </dependency>
     <dependency>
       <groupId>com.squareup.okhttp3</groupId>
@@ -57,13 +64,13 @@
       <groupId>com.caverock</groupId>
       <artifactId>androidsvg-aar</artifactId>
       <version>1.4</version>
-     
+      
     </dependency>
     <dependency>
       <groupId>io.reactivex.rxjava2</groupId>
       <artifactId>rxandroid</artifactId>
       <version>2.1.1</version>
-     
+      
     </dependency>
     <dependency>
       <groupId>com.github.mhshams</groupId>
@@ -75,7 +82,7 @@
       <groupId>net.sf.scuba</groupId>
       <artifactId>scuba-sc-android</artifactId>
       <version>0.0.20</version>
-     
+      
     </dependency>
     <dependency>
       <groupId>com.madgag.spongycastle</groupId>
@@ -96,8 +103,8 @@
       
       <exclusions>
         <exclusion>
-          <groupId>org.bouncycastle</groupId>
           <artifactId>bcprov-jdk15on</artifactId>
+          <groupId>org.bouncycastle</groupId>
         </exclusion>
       </exclusions>
     </dependency>
@@ -105,13 +112,13 @@
       <groupId>com.google.mlkit</groupId>
       <artifactId>text-recognition</artifactId>
       <version>16.0.0</version>
-     
+    
     </dependency>
     <dependency>
       <groupId>androidx.camera</groupId>
       <artifactId>camera-camera2</artifactId>
       <version>1.0.0-SNAPSHOT</version>
-     
+    
     </dependency>
     <dependency>
       <groupId>androidx.camera</groupId>
@@ -123,13 +130,13 @@
       <groupId>androidx.camera</groupId>
       <artifactId>camera-view</artifactId>
       <version>1.0.0-SNAPSHOT</version>
-      
+     
     </dependency>
     <dependency>
       <groupId>com.google.mlkit</groupId>
       <artifactId>camera</artifactId>
       <version>16.0.0-beta3</version>
-      
+     
     </dependency>
     <dependency>
       <groupId>androidx.lifecycle</groupId>
@@ -147,7 +154,7 @@
       <groupId>com.squareup.retrofit2</groupId>
       <artifactId>retrofit</artifactId>
       <version>2.3.0</version>
-      
+     
     </dependency>
     <dependency>
       <groupId>com.google.code.gson</groupId>
@@ -171,7 +178,7 @@
       <groupId>com.github.bumptech.glide</groupId>
       <artifactId>glide</artifactId>
       <version>4.14.2</version>
-      
+    
     </dependency>
     <dependency>
       <groupId>androidx.multidex</groupId>
@@ -213,13 +220,7 @@
       <groupId>org.jetbrains.kotlin</groupId>
       <artifactId>kotlin-stdlib-jdk8</artifactId>
       <version>1.8.10</version>
-      
-    </dependency>
-    <dependency>
-      <groupId>androidx.databinding</groupId>
-      <artifactId>databinding-runtime</artifactId>
-      <version>8.1.0</version>
-      
+     
     </dependency>
     <dependency>
       <groupId>com.google.android.gms</groupId>
@@ -240,18 +241,6 @@
       
     </dependency>
     <dependency>
-      <groupId>com.google.mlkit</groupId>
-      <artifactId>segmentation-selfie</artifactId>
-      <version>16.0.0-beta4</version>
-      
-    </dependency>
-    <dependency>
-      <groupId>com.rmtheis</groupId>
-      <artifactId>tess-two</artifactId>
-      <version>9.0.0</version>
-      
-    </dependency>
-    <dependency>
       <groupId>org.tensorflow</groupId>
       <artifactId>tensorflow-lite</artifactId>
       <version>2.5.0</version>
@@ -264,16 +253,10 @@
       
     </dependency>
     <dependency>
-      <groupId>com.google.android.gms</groupId>
-      <artifactId>play-services-vision</artifactId>
-      <version>20.1.3</version>
-      
-    </dependency>
-    <dependency>
       <groupId>org.opencv</groupId>
       <artifactId>opencv</artifactId>
       <version>4.9.0</version>
-      
+    
     </dependency>
   </dependencies>
 </project>
