@@ -10,7 +10,7 @@
   <groupId>com.kyc.nashidmrz</groupId>
   <artifactId>IDV</artifactId>
   <version>1.7</version>
-  
+ 
   <dependencies>
     <dependency>
       <groupId>androidx.databinding</groupId>
@@ -232,12 +232,6 @@
       <groupId>io.michaelrocks</groupId>
       <artifactId>libphonenumber-android</artifactId>
       <version>8.12.52</version>
-      
-    </dependency>
-    <dependency>
-      <groupId>com.google.mlkit</groupId>
-      <artifactId>segmentation-selfie</artifactId>
-      <version>16.0.0-beta4</version>
       
     </dependency>
     <dependency>
