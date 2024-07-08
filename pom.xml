@@ -9,8 +9,8 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.kyc.nashidmrz</groupId>
   <artifactId>IDV</artifactId>
-  <version>2.2</version>
-
+  <version>2.3</version>
+  
   <dependencies>
     <dependency>
       <groupId>androidx.databinding</groupId>
